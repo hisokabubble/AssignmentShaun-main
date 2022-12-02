@@ -1,0 +1,55 @@
+body{background-image: linear-gradient(to bottom left, #EB8EFF, #00D5B2);
+margin:0;
+padding:0;}
+
+nav{display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    font-family:'ZCOOL QingKe HuangYou', sans-serif;
+    padding: 20px;
+    margin: 20;
+    height:50%;
+    border: 1px solid black;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+a{color:white;}
+
+div{
+display:flex;
+align-items:center;
+justify-content:center;
+margin:4%;
+padding:10px;
+font-size:25px;
+color: black;
+font-family: 'Bebas Neue',cursive;
+}
+
+aside{
+    display:flex;
+    align-items: flex-start;
+    margin:40px;
+    padding: 40px;
+    height: 50%;
+}
+
+article{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:10%;
+    padding:20px;
+    font-size:25px;
+    color: black;
+   
+    font-family: 'Bebas Neue',cursive;
+    }
+
+
