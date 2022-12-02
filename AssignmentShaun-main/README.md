@@ -2,9 +2,10 @@
 
 Website plan:
 
-Flappy Bird strong bold will bring the webpage back to About: Which is the homepage for this website
+Flappy Bird strong bold logo png will bring the webpage back to About: Which is the homepage for this website
 
-Maybe under support make a sign up form for donations etc
+Maybe under support make a sign up form for donations to help make the game continue,
+sign up for daily facts about flappy bird
 
 Under leaderboard nil for now
 

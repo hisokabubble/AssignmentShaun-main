@@ -8,20 +8,57 @@
 </header>
 <body>
     
-    <nav> 
-        <a href = "#" class = 'cat'><img src= "Flappy_Bird_Logo.svg"
+    <nav id="dogontop"> 
+        <a href = "#dogontop" class = 'cat'><img src= "Flappy_Bird_Logo.svg"
         style=" width: 200px;height: 80px;"> </a>
-        <a href="#" class = "button"><strong>About</strong></a>
+        <style>
+            .dropdown {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              padding:  16px;
+              z-index: 1;
+            }
+            
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <div class="dropdown">
+              <a href = "#dogontop" class = "button" style="font-family:'ZCOOL QingKe HuangYou', sans-serif;
+              font-size:30px;" >
+                <strong>About</strong></a>
+              <div class="dropdown-content">
+              <a href = "#gameplay" class = "button" style="color: black;">Gameplay!</a>
+              <a href = "#development" class = "button" style="color: black;">Development!</a>
+              <a href = "#release" class = "button" style="color: black;">Release!</a>
+              <a href = "#reception" class = "button" style="color: black;">Receptions!</a>
+              </div>
+            </div>
+            
+            </body>
+
         <a href="https://flappybird.io/" class = "button"><strong>Play</strong></a>
-        <a href="#" class = "button"><strong>Leaderboard</strong></a>
-        <a href="#" class = "button"><strong>Support Us !</strong></a>
+        <a href="http://flappybird.io/leaderboard/" class = "button"><strong>Leaderboard</strong></a>
+        <a href="supportus.html" class = "button"><strong>Support Us !</strong></a>
         <a href="#" class = "button"><strong>Contact Us</strong></a>
     
         </nav>
     
-    <div><aside><h1>Gameplay!</h1></aside>
-        <aside>
-        <img src="Flappy_Bird_gameplay.png" ></aside>
+    <div id="gameplay"><aside><h1>Gameplay!</h1></aside>
+        <iframe width="600" height="400"  src="https://www.youtube.com/embed/I69adfEqwC0" title="YouTube
+         video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+         encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>Flappy Bird is an arcade-style game in which the player controls the bird Faby, which moves 
         persistently to the right. The player is tasked with navigating Faby through pairs of pipes that 
         have equally sized gaps placed at random heights. Faby automatically descends and only ascends 
@@ -34,7 +71,7 @@
     <div>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     </div>
 
-    <article>
+    <article id="development">
         Dong Nguyen grew up in Vạn Phúc, a village near Hanoi. He discovered video games by playing
         Super Mario Bros. as a child and began coding his own at age 16. At 19, while studying
         programming at a local university, he won an internship at Punch Entertainment,
@@ -55,7 +92,7 @@
     <div>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     </div>
 
-    <article>
+    <article id="release">
         <aside><h1>Release!</h1></aside>
         Flappy Bird was originally released on May 24, 2013, with support for the iPhone 5.
         The game was subsequently updated for iOS 7 in September 2013. Although originally unsuccessful,
@@ -66,6 +103,27 @@
         The Android version of Flappy Bird was released to the Google Play store on January 30, 2014.
         In early 2014, Nguyen said in an interview with The Verge that the game was earning around
         $50,000 a day in revenue through its in-game advertising.</article>
+
+    <div>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    </div>
+
+    <article id="reception">Flappy Bird received "mixed or average reviews" from critics, holding a Metacritic score
+        of 52/100, based on seven reviews. The app was criticized by the Huffington Post, which described
+        it as an "insanely irritating, difficult and frustrating game which combines a super-steep
+        difficulty curve with bad, boring graphics and jerky movement". IGN gave the game a mediocre
+        score of 5.4 out of 10, quipping that the game is as addictive as it was shallow. Despite
+        criticizing its playability and its "no skill" requirement, IGN noted that the gameplay made it
+        "an addictive short-term distraction" for the casual skill and score-obsessed players. The game's
+        difficulty has been a source of ire for many users, with one user stating that it took him half
+        an hour to achieve a score of five points. According to its creator, the game is slightly easier
+        on Android devices than on iOS. Nolan Bushnell, the creator of the video game Pong,
+        compared Flappy Bird to his own game by claiming that "simple games are more satisfying".
+        John Romero, a co-creator of the classic first-person shooter Doom, commented that Flappy Bird is
+        "a reaction against prevailing design the way grunge was a reaction to metal."
+        <aside><h1>Receptions!</h1></aside>
+    </article>
+
+
 
 
         
