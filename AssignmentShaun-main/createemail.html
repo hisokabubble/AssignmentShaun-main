@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<link href="createemail.css" rel="stylesheet" type="text/css" />
+<header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nerko+One&family
+=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+</header>
+
+<nav id="dogontop"> 
+    <a href = "index.html" class = 'cat'><img src= "Flappy_Bird_Logo.svg"
+    style=" width: 200px;height: 80px;"> </a>
+    <style>
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          padding:  16px;
+          z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="dropdown">
+          <a href = "index.html" class = "button" style="font-family:'ZCOOL QingKe HuangYou', sans-serif;
+          font-size:30px;" >
+            <strong>Home</strong></a>
+          <div class="dropdown-content">
+          <a href = "index.html#aboutus" class = "button" style = "color:black;">About Us!</a>
+          <a href = "index.html#gameplay" class = "button" style="color: black;">Gameplay!</a>
+          <a href = "index.html#development" class = "button" style="color: black;">Development!</a>
+          <a href = "index.html#release" class = "button" style="color: black;">Release!</a>
+          <a href = "index.html#reception" class = "button" style="color: black;">Receptions!</a>
+          </div>
+        </div>
+        
+        </body>
+        <a href="https://flappybird.io/" class = "button"><strong>Play</strong></a>
+        <a href="http://flappybird.io/leaderboard/" class = "button"><strong>Leaderboard</strong></a>
+        <a href="supportus.html" class = "button"><strong>Support Us</strong></a>
+        <a href="#" class = "button"><strong>Contact Us</strong></a>
+    
+        </nav>
+
+        <form action="/some-url" method ="POST">
+            <div class ="createform">
+                <h1>Create Account!</h1>
+                <h2>Create an account to sign up for daily facts or donate to us if you are feeling generous :)</h2>
+                <label for = "email">Email:
+                    <input type = "text" placeholder="someone@example.com " name="email" required>
+                </label>
+                <label for = "cfmemail">Confirm Email:
+                <input type = "text" placeholder="somone@example.com" name = "confirmemail" required>
+                </label>
+                <label for = "password">Password:
+                    <input type = "password" placeholder = "Key in a password! " name="password" required>
+                </label>
+                <label for = "cfmpassword">Confirm Password:
+                    <input type = "password" placeholder = "Confirm your password" name = "confirmpassword" required>
+                </label>
+                
+                <p>
+                    By creating an account you agree to our <a href = "tnc.html" style = "color:dark blue">Terms and Conditions</a>
+                </p>
+                <label for="newsletter">
+                    <input type ="checkbox" checked = "checked" style="margin:10px; padding: 10px">
+                    Do you want to receive daily news, facts and jokes about Flappy Bird?
+                </label>
+                <label for ="rmbme">
+                    <input type = "checkbox"  style ="margin-bottom:15px">
+                    Remember Me!
+                </label>
+            
+            <button>Let's Get Started!</button>
+            </div>
+            </form>

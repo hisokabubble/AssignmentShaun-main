@@ -8,10 +8,14 @@ nav{display:flex;
     font-size: 30px;
     background: linear-gradient(to right, #2c3e50, #4ca1af);
     font-family:'ZCOOL QingKe HuangYou', sans-serif;
+    position:fixed;
+    position:sticky;
+    top: 0px;
     padding: 10px;
-    margin: 20;
+    margin: 0px;
     height:70px;
     border: 1px solid black;
+
 }
 
 a:link { text-decoration: none; }
@@ -23,26 +27,27 @@ a{color:white;}
 
 div{
 display:flex;
-align-items:center;
+align-items:top;
 justify-content:center;
-margin:4%;
-padding:10px;
+margin:2%;
+padding:8px;
 font-size:25px;
 color: black;
-font-family: 'Bebas Neue',cursive;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
 aside{
     display:flex;
     align-items: flex-start;
-    margin:40px;
+    margin:20px;
     padding: 40px;
-    height: 50%;
+    height: 30%;
 }
 iframe{
     display:flex;
-    margin: 40px;
-    padding: 40px;
+    align-items: top-left;
+    margin: 10px;
+    padding: 17px;
     background-image: linear-gradient(to right, red , yellow);
 
 }
@@ -55,8 +60,11 @@ article{
     padding:20px;
     font-size:25px;
     color: black;
-    font-family: 'Bebas Neue',cursive;
-    }
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+
     
 
 
